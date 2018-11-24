@@ -1,0 +1,12 @@
+{
+    "name": "homebridge-docker-arm32v7",
+    "version": "0.1.0",
+    "description": "template for homebridge installation",
+    "scripts": {
+      "start": "homebridge"
+    },
+    "keywords": [],
+    "author": "jaedle",
+    "license": "MIT",
+    "repository": "none"
+  }

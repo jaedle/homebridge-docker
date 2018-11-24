@@ -8,7 +8,7 @@ WORKDIR /homebridge
 COPY package.json .
 
 RUN npm install homebridge
-RUN npm install homebridge-fhem homebridge-tplink-smarthome
+RUN npm install plugins=$(cat plugins.txt | tr '\n' ' ')
 
 FROM arm32v7/node:10-slim
 WORKDIR /homebridge

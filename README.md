@@ -1,5 +1,8 @@
 # Dockerized Homebridge for your RaspberryPi
 
+[![build-status](https://gitlab.com/arm-docker-images/homebridge-docker-arm32v7/badges/master/build.svg)](https://gitlab.com/arm-docker-images/homebridge-docker-arm32v7/pipeline) [![image-size](https://shields.beevelop.com/docker/image/image-size/jaedle/homebridge-arm32v7/latest.svg?style=flat)](https://hub.docker.com/r/jaedle/homebridge-arm32v7/) [![Docker Pulls](https://img.shields.io/docker/pulls/jaedle/homebridge-arm32v7.svg)](https://hub.docker.com/r/jaedle/homebridge-arm32v7/)
+
+
 - Why another homebridge-docker image?
   - Should be **simple**
   - Should be **small** (< 100MB)

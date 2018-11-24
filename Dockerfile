@@ -8,6 +8,7 @@ WORKDIR /homebridge
 COPY package.json .
 
 RUN npm install homebridge
+COPY plugins.txt .
 RUN npm install plugins=$(cat plugins.txt | tr '\n' ' ')
 
 FROM arm32v7/node:10-slim

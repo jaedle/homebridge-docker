@@ -1,2 +1,3 @@
 homebridge-fhem
 homebridge-tplink-smarthome
+homebridge-config-ui-x

@@ -1,3 +1,4 @@
 homebridge-fhem
 homebridge-tplink-smarthome
 homebridge-config-ui-x
+homebridge-xiaomi-roborock-vacuum

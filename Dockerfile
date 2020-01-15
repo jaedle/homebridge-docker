@@ -17,4 +17,4 @@ WORKDIR /homebridge
 COPY --from=builder /homebridge .
 VOLUME /homebridge/config
 
-CMD ["npm", "run", "start", "--", "-U", "/homebridge/config"]
+CMD [ "npm", "run", "start", "--", "-U", "/homebridge/config", "-I" ]

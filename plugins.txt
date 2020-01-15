@@ -4,3 +4,4 @@ homebridge-config-ui-x
 homebridge-xiaomi-roborock-vacuum
 homebridge-fritz
 homebridge-hue
+homebridge-alexa

@@ -5,3 +5,4 @@ homebridge-fritz
 homebridge-hue
 homebridge-alexa
 homebridge-rademacher-homepilot
+homebridge-pihole

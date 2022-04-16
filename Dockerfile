@@ -1,4 +1,4 @@
-FROM arm32v7/node:12-slim as builder
+FROM arm32v7/node:16-slim as builder
 RUN apt-get update && apt-get install --yes \
 	git \
 	g++ \
@@ -13,7 +13,7 @@ RUN npm install homebridge
 COPY plugins.txt .
 RUN npm install $(cat plugins.txt | tr '\n' ' ')
 
-FROM arm32v7/node:12-slim
+FROM arm32v7/node:16-slim
 RUN apt-get update && apt-get install --yes \
 	libatomic1
 WORKDIR /homebridge

@@ -1,5 +1,5 @@
 homebridge-fhem
-homebridge-tplink-smarthome@4.0.1
+homebridge-tplink-smarthome
 homebridge-config-ui-x
 homebridge-fritz
 homebridge-hue

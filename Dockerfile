@@ -1,10 +1,10 @@
-FROM node:16-slim as builder
+FROM node:18-slim as builder
 RUN apt-get update && apt-get install --yes \
 	git \
 	g++ \
 	libatomic1 \
 	make \
-	python
+	python3
 
 WORKDIR /homebridge
 COPY package.json .
